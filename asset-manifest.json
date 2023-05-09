@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/lovebirds-ua/static/css/main.c73f7758.css",
+    "main.js": "/lovebirds-ua/static/js/main.ff28b171.js",
+    "static/media/main-bg-5.jpg": "/lovebirds-ua/static/media/main-bg-5.d38fe33711c8a3485944.jpg",
+    "static/media/lovebirds-8.jpg": "/lovebirds-ua/static/media/lovebirds-8.2715f9d398e8a48f529a.jpg",
+    "static/media/main-bg-3.jpg": "/lovebirds-ua/static/media/main-bg-3.2715f9d398e8a48f529a.jpg",
+    "static/media/main-bg-2.jpg": "/lovebirds-ua/static/media/main-bg-2.160b24b43866fa9ed73f.jpg",
+    "static/media/main-bg-4.jpg": "/lovebirds-ua/static/media/main-bg-4.90421db35af0786d1771.jpg",
+    "static/media/lovebirds-7.jpg": "/lovebirds-ua/static/media/lovebirds-7.6fbe48000dd47af1e067.jpg",
+    "static/media/lovebirds-6.jpg": "/lovebirds-ua/static/media/lovebirds-6.13e74b7e471f93fbe26e.jpg",
+    "static/media/lovebirds-9.jpg": "/lovebirds-ua/static/media/lovebirds-9.7aad4ccaeca0035683d2.jpg",
+    "static/media/lovebirds-bg.jpg": "/lovebirds-ua/static/media/lovebirds-bg.799b3dfacebe18e68637.jpg",
+    "static/media/lovebirds-5.jpg": "/lovebirds-ua/static/media/lovebirds-5.1c75ac72a78ec1e185f9.jpg",
+    "static/media/lovebirds-4.jpg": "/lovebirds-ua/static/media/lovebirds-4.c43c00810e35644366e4.jpg",
+    "static/media/red-headed-lovebird.jpg": "/lovebirds-ua/static/media/red-headed-lovebird.22fe372e967429cadf8c.jpg",
+    "static/media/black-cheeked-lovebird.jpg": "/lovebirds-ua/static/media/black-cheeked-lovebird.f728ec78dd247f1877b0.jpg",
+    "static/media/black-winged-lovebird.jpg": "/lovebirds-ua/static/media/black-winged-lovebird.87e1e53387a177fa662b.jpg",
+    "static/media/lilians-lovebird.jpg": "/lovebirds-ua/static/media/lilians-lovebird.c2a22f7cd4676a4d5acd.jpg",
+    "static/media/yellow-collared-lovebird.jpg": "/lovebirds-ua/static/media/yellow-collared-lovebird.97d934de7854afce12e7.jpg",
+    "static/media/round-cage.webp": "/lovebirds-ua/static/media/round-cage.4f8469ad3566abc293b2.webp",
+    "static/media/wood-cage.webp": "/lovebirds-ua/static/media/wood-cage.1372b2bd927b066c2247.webp",
+    "static/media/rosy-faced-lovebird.jpg": "/lovebirds-ua/static/media/rosy-faced-lovebird.894ed1cf77f28a69a9fc.jpg",
+    "static/media/black-collared-lovebird.jpg": "/lovebirds-ua/static/media/black-collared-lovebird.d8818e2e836b1cc03d32.jpg",
+    "static/media/good-cage.webp": "/lovebirds-ua/static/media/good-cage.10a8a7a739a2db899c49.webp",
+    "static/media/grey-headed-lovebird.jpg": "/lovebirds-ua/static/media/grey-headed-lovebird.f250a01693f35319dd3d.jpg",
+    "static/media/small-cage.webp": "/lovebirds-ua/static/media/small-cage.6e44d27e16ff4b8654be.webp",
+    "static/media/figure-cage.webp": "/lovebirds-ua/static/media/figure-cage.208a7527b26de26b1f17.webp",
+    "static/media/cage.webp": "/lovebirds-ua/static/media/cage.7cad0ec061842d9db5b4.webp",
+    "static/media/fishers-lovebird.jpg": "/lovebirds-ua/static/media/fishers-lovebird.ed3a0d0f5aa6c348e240.jpg",
+    "index.html": "/lovebirds-ua/index.html",
+    "main.c73f7758.css.map": "/lovebirds-ua/static/css/main.c73f7758.css.map",
+    "main.ff28b171.js.map": "/lovebirds-ua/static/js/main.ff28b171.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c73f7758.css",
+    "static/js/main.ff28b171.js"
+  ]
+}
