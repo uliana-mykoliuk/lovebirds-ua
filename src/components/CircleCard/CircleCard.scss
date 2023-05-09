@@ -1,0 +1,36 @@
+$light-green: #a5eb57;
+$mustard-yellow: #ebc941;
+$soft-red: #fd5225;
+
+.circle-bg-var-1 {
+  background-color: $light-green;
+}
+
+.circle-bg-var-2 {
+  background-color: $mustard-yellow;
+}
+
+.circle-bg-var-3 {
+  background-color: $soft-red;
+}
+
+.position-right {
+  justify-self: self-end;
+}
+
+.circle-card {
+  margin-top: -75px;
+  margin-bottom: -75px;
+  width: 475px;
+  height: 475px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+
+  p {
+    color: #fff;
+  }
+}
