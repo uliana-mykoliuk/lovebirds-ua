@@ -1,7 +1,0 @@
-.species-page {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  width: 1110px;
-  margin: 100px auto;
-}

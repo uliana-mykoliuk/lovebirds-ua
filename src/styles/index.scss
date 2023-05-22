@@ -23,3 +23,384 @@ code {
   max-width: 1240px;
   margin: 0 auto;
 }
+
+// circle card
+
+:root {
+  --light-green: #a5eb57;
+  --mustard-yellow: #ebc941;
+  --soft-red: #fd5225;
+}
+
+.circle-bg-var-1 {
+  background-color: var(--light-green);
+}
+
+.circle-bg-var-2 {
+  background-color: var(--mustard-yellow);
+}
+
+.circle-bg-var-3 {
+  background-color: var(--soft-red);
+}
+
+.position-right {
+  justify-self: self-end;
+}
+
+.circle-card {
+  margin-top: -75px;
+  margin-bottom: -75px;
+  width: 475px;
+  height: 475px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.circle-card p {
+  color: #fff;
+}
+
+
+// footer
+.footer {
+  background-color: #a5eb57;
+  padding: 36px 36px;
+  display: grid;
+  grid-template-columns: 150px 1fr 50px 1fr 150px;
+  grid-template-areas: "Text . Year . Links";
+  font-size: 18px;
+}
+
+.footer .footer-text {
+  grid-area: Text;
+  align-self: flex-end;
+  margin: 0px;
+  color: #fff;
+}
+
+.footer .footer-year {
+  grid-area: Year;
+  align-self: flex-end;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer .footer-links {
+  grid-area: Links;
+  list-style-type: none;
+}
+
+.footer .footer-links .footer-link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+// fun-facts
+.fun-facts-container {
+  display: grid;
+  margin: 175px 0px;
+  padding: 0px 100px;
+}
+
+
+// header
+.header {
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: fixed;
+}
+
+.header .links-container {
+  display: flex;
+  column-gap: 30px;
+  list-style-type: none;
+  background: linear-gradient(to right, transparent, rgba(255, 68, 0, 0.7));
+  padding: 15px 36px 15px 100px;
+}
+
+.header .links-container .list-item .header-link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+// main-bg
+.main-bg-1 {
+  background-image: url("../../src/assets/lovebirds-bg.jpg");
+}
+
+.main-bg-2 {
+  background-image: url("../../src/assets/main-bg-2.jpg");
+}
+
+.main-bg-3 {
+  background-image: url("../../src/assets/main-bg-3.jpg");
+}
+
+.main-bg-4 {
+  background-image: url("../../src/assets/main-bg-4.jpg");
+}
+
+.main-bg-5 {
+  background-image: url("../../src/assets/main-bg-5.jpg");
+}
+
+.main {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.text-block {
+  z-index: 1;
+  display: grid;
+  justify-items: center;
+  align-content: start;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: "Pacifico", cursive;
+  background: -webkit-linear-gradient(#d70d0d, #f96c00, rgb(94, 255, 49));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+  margin-top: 0px;
+  text-shadow: -6px -7px 0px #fff;
+}
+
+h2 {
+  font-style: italic;
+  margin: 0px;
+  color: #fff;
+}
+
+// Photo card
+.photo-card-bg-1 {
+  background-image: url("../assets/photo-cards/black-cheeked-lovebird.jpg");
+}
+
+.photo-card-bg-2 {
+  background-image: url("../assets/photo-cards/rosy-faced-lovebird.jpg");
+}
+
+.photo-card-bg-3 {
+  background-image: url("../assets/photo-cards/yellow-collared-lovebird.jpg");
+}
+
+.photo-card-bg-4 {
+  background-image: url("../assets/photo-cards/fishers-lovebird.jpg");
+}
+
+.photo-card-bg-5 {
+  background-image: url("../assets/photo-cards/lilians-lovebird.jpg");
+}
+
+.photo-card-bg-6 {
+  background-image: url("../assets/photo-cards/black-collared-lovebird.jpg");
+}
+
+.photo-card-bg-7 {
+  background-image: url("../assets/photo-cards/black-winged-lovebird.jpg");
+}
+
+.photo-card-bg-8 {
+  background-image: url("../assets/photo-cards/red-headed-lovebird.jpg");
+}
+
+.photo-card-bg-9 {
+  background-image: url("../assets/photo-cards/grey-headed-lovebird.jpg");
+}
+
+.photo-card {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.photo-card .black-cover {
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.492);
+}
+
+.photo-card h3,
+.photo-card p {
+  z-index: 1;
+}
+
+// species page
+.species-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 1110px;
+  margin: 100px auto;
+}
+
+// text-iamge-letter
+
+.dot-bg-var-1 {
+  background-color: var(--light-green);
+}
+
+.dot-bg-var-2 {
+  background-color: var(--mustard-yellow);
+}
+
+.dot-bg-var-3 {
+  background-color: var(--soft-red);
+}
+
+.img-bg-1 {
+  background-image: url("../../src/assets/lovebirds-4.jpg");
+  background-position-y: 75%;
+}
+
+.img-bg-2 {
+  background-image: url("../../src/assets/lovebirds-5.jpg");
+  background-position-y: 75%;
+}
+
+.img-bg-3 {
+  background-image: url("../../src/assets/lovebirds-6.jpg");
+  background-position-y: 75%;
+}
+
+.img-bg-4 {
+  background-image: url("../../src/assets/lovebirds-7.jpg");
+  background-position-y: 75%;
+}
+
+.img-bg-5 {
+  background-image: url("../../src/assets/lovebirds-8.jpg");
+  background-position-y: 75%;
+}
+
+.img-bg-6 {
+  background-image: url("../../src/assets/lovebirds-9.jpg");
+  background-position-y: 75%;
+}
+
+.txt-img-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 450px minmax(30px, 100px) auto;
+  grid-template-areas: "TxtImg . TxtText";
+}
+
+.txt-img-container-right-img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto minmax(30px, 100px) 450px;
+  grid-template-areas: "TxtText . TxtImg";
+}
+
+.img-block-right {
+  width: 450px;
+  position: relative;
+  padding-top: 20px;
+  grid-area: TxtImg;
+}
+
+.img-block-right .txt-img-let-letter {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.img-block {
+  width: 450px;
+  position: relative;
+  padding-top: 20px;
+  grid-area: TxtImg;
+}
+
+.img-block .txt-img-let-letter {
+  position: absolute;
+  top: 0px;
+  right: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.txt-img-let-image-container {
+  width: 400px;
+  height: 400px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.txt-img-let-letter {
+  position: absolute;
+  top: 0px;
+  right: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.text-block {
+  grid-area: TxtText;
+  font-size: 18px;
+  letter-spacing: 0.15rem;
+}
+
+
