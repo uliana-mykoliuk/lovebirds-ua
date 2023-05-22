@@ -1,4 +1,4 @@
-import "./TextImageLetter.scss";
+import "./TextImageLetter.css";
 
 const TextImageLetter = ({ text, variantColor, variantBg, imgPosition }) => {
   const colors = {

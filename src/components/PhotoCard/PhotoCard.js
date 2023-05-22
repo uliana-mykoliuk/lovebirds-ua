@@ -1,4 +1,4 @@
-import "./PhotoCard.scss";
+import "./PhotoCard.css";
 
 const PhotoCard = ({ title, text, bgVar }) => {
   const variants = {

@@ -1,4 +1,4 @@
-import "./MainBackground.scss";
+import "./MainBackground.css";
 
 const MainBackground = ({ titleText, subtitleText, backgroundVariant }) => {
   const variants = {
