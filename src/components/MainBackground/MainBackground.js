@@ -22,7 +22,7 @@ const MainBackground = ({ titleText, subtitleText, backgroundVariant }) => {
 
 MainBackground.defaultProps = {
   titleText: "Нерозлучники",
-  subtitleText: "Пташки, що подарують вам любов",
+  subtitleText: "Пташки, що подарують вам любов ",
   backgroundVariant: 1,
 };
 
