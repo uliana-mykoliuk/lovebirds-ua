@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/index.css";
+import "../index.scss";
 import "../styles/fun-facts.css"
 import "../styles/species-page.css"
 import "../styles/circle-card.css"
