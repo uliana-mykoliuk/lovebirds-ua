@@ -1,7 +1,5 @@
 import "./TextImageLetter.scss";
 
-import img from "../../../src/assets/lovebirds-4.jpg";
-
 const TextImageLetter = ({ text, variantColor, variantBg, imgPosition }) => {
   const colors = {
     1: "dot-bg-var-1",
