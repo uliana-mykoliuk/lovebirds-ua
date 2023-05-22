@@ -1,5 +1,3 @@
-import "./CircleCard.css";
-
 const CircleCard = ({ title, text, colorVar, position }) => {
   const variants = {
     1: "circle-bg-var-1",

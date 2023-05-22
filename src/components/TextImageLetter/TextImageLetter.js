@@ -1,5 +1,3 @@
-import "./TextImageLetter.css";
-
 const TextImageLetter = ({ text, variantColor, variantBg, imgPosition }) => {
   const colors = {
     1: "dot-bg-var-1",

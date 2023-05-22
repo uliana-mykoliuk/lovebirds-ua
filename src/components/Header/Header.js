@@ -1,5 +1,3 @@
-import "./Header.css";
-
 const Header = ({ headerArray }) => {
   return (
     <header className="header">

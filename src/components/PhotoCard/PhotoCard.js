@@ -1,5 +1,3 @@
-import "./PhotoCard.css";
-
 const PhotoCard = ({ title, text, bgVar }) => {
   const variants = {
     1: "photo-card-bg-1",

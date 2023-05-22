@@ -1,5 +1,3 @@
-import "./Footer.css";
-
 const Footer = ({ footerText, footerLinks }) => {
   const year = new Date().getFullYear();
 

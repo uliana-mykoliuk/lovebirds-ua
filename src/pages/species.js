@@ -1,7 +1,5 @@
-import Layout from "../../components/Layout/Layout";
-import PhotoCard from "../../components/PhotoCard/PhotoCard";
-
-import "./SpeciesPage.scss";
+import Layout from "../components/Layout/Layout";
+import PhotoCard from "../components/PhotoCard/PhotoCard";
 
 const SpeciesPage = () => {
   return (

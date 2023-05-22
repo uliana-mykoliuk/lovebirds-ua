@@ -1,7 +1,5 @@
-import CircleCard from "../../components/CircleCard/CircleCard";
-import Layout from "../../components/Layout/Layout";
-
-import "./FunFacts.scss";
+import CircleCard from "../components/CircleCard/CircleCard";
+import Layout from "../components/Layout/Layout";
 
 const FunFactsPage = () => {
   return (

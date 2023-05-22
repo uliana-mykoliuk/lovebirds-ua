@@ -1,5 +1,3 @@
-import "./MainBackground.css";
-
 const MainBackground = ({ titleText, subtitleText, backgroundVariant }) => {
   const variants = {
     1: "main-bg-1",
