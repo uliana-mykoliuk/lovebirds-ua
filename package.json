@@ -1,7 +1,7 @@
 {
   "name": "lovebirds",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.37.2",
     "critters": "^0.0.16",
