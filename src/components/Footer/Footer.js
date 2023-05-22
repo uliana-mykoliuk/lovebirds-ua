@@ -30,7 +30,7 @@ Footer.defaultProps = {
       name: "домашня сторінка",
     },
     {
-      link: "/fun-fucts",
+      link: "/fun-facts",
       name: "Цікаві факти",
     },
     {
