@@ -1,13 +1,13 @@
 import React from "react";
-import "../index.css";
-import "../styles/FunFacts.css"
-import "../styles/SpeciesPage.css"
-import "../styles/CircleCard.css"
-import "../styles/Footer.css"
-import "../styles/Header.css"
-import "../styles/MainBackground.css"
-import "../styles/PhotoCard.css"
-import "../styles/TextImageLetter.css"
+import "../styles/index.css";
+import "../styles/fun-facts.css"
+import "../styles/species-page.css"
+import "../styles/circle-card.css"
+import "../styles/footer.css"
+import "../styles/header.css"
+import "../styles/main-background.css"
+import "../styles/photo-card.css"
+import "../styles/text-image-letter.css"
 
 
 export default function MyApp({ Component, pageProps }) {
